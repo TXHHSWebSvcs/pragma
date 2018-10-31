@@ -1,0 +1,137 @@
+name = pragma
+description = Responsive Drupal 7 HHS Base Theme.
+package = pragma
+version = 1.0
+core = 7.x
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Regions
+;;;;;;;;;;;;;;;;;;;;;;;
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Custom Regions
+;;;;;;;;;;;;;;;;;;;;;;;
+regions[top_bar]  = 'Top Bar'
+regions[header_top]  = 'Header Top'
+regions[header_search]  = 'Header Search'
+regions[branding]  = 'Branding'
+regions[header_icons]  = 'Header Icons'
+regions[header_menu]  = 'Header Menu'
+regions[one_page]  = 'One Page Content'
+regions[before_content]  = 'Before Content'
+regions[sidebar_left]  = 'Left Sidebar'
+regions[sidebar_right]  = 'Right Sidebar'
+regions[after_content]  = 'After Content'
+regions[footer_1]  = 'Footer Box 1'
+regions[footer_2]  = 'Footer Box 2'
+regions[footer_3]  = 'Footer Box 3'
+regions[footer_4]  = 'Footer Box 4'
+regions[content_bottom]  = 'Content Bottom'
+regions[footer_bottom_left]  = 'Footer Bottom Left'
+regions[footer_bottom_right]  = 'Footer Bottom Right'
+regions[content_bottom_left]  = 'Content Bottom Left'
+regions[content_bottom_right]  = 'Content Bottom Right'
+regions[inset]  = 'Inset'
+regions[pre_content]  = 'Pre Content'
+
+; Hide the sidebar region.
+; Used only for installation.
+regions_hidden[] = help
+
+; Panels layouts. You can place multiple layouts under the panels-layouts folder.
+plugins[panels][layouts] = panels-layouts
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Features
+;;;;;;;;;;;;;;;;;;;;;;;
+features[] = logo
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[toggle_logo] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; General Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[pragma_toggle_scroll_to_top] = 1
+settings[pragma_search_button_text] = 'Go'
+settings[pragma_search_field_placeholder_text] = 'Enter the terms you wish to search for.'
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Header Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[pragma_header_style] = 'header_a'
+settings[pragma_sticky_header] = 0
+settings[pragma_main_menu] = 'main-menu'
+settings[pragma_social_menu] = 'menu-social-menu'
+settings[pragma_social_menu_custom_html_toggle] = 0
+settings[pragma_social_menu_custom_html] = ''
+settings[pragma_user_action_menu] = 'menu-user-action-menu'
+settings[pragma_user_action_menu_custom_html_toggle] = 1
+settings[pragma_user_action_menu_custom_html] = '<ul class="list-unstyled user-action-menu"><li><a href="/user"><i class="fa fa-user" aria-hidden="true"></i></a></li><li><a href="/search" class="toggle-header-search"><i class="fa fa-search" aria-hidden="true"></i></a></li></ul>'
+settings[pragma_toggle_social_menu] = 1
+settings[pragma_toggle_user_action_menu] = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Footer Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[pragma_footer_bar_menu] = 'menu-footer-bar-menu'
+settings[pragma_copy_note] = '2018 © Texas HHSC'
+settings[pragma_toggle_footer_bar_menu_menu] = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Color Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[pragma_use_custom_theme_color] = 0;
+settings[pragma_bg_color] = rgb(250, 250, 250)
+settings[pragma_brand_color] = rgb(0, 188, 212)
+settings[pragma_primay_dark_text_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_secondary_dark_text_color] = rgba(38, 50, 56, 0.54)
+settings[pragma_borders_color] = rgb(207, 216, 220)
+
+; Header
+settings[pragma_header_top_bg] = rgb(0, 188, 212)
+settings[pragma_header_bg] = rgb(255, 255, 255)
+settings[pragma_header_link_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_header_link_over_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_header_dropdown_bg] = rgba(236, 239, 241, 0.9)
+settings[pragma_header_dropdown_over_bg] = rgba(255, 255, 255, 0.5)
+settings[pragma_header_dropdown_link_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_header_dropdown_link_over_color] = rgba(38, 50, 56, 0.87)
+
+; Responsive side menu
+settings[pragma_resp_menu_bg] = rgb(255, 255, 255)
+settings[pragma_resp_menu_link_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_resp_menu_parent_link_bg] = rgba(38, 50, 56, 0.87)
+settings[pragma_resp_menu_parent_link_color] = rgb(255, 255, 255)
+
+; Block
+settings[pragma_block_title_color] = rgb(38, 50, 56)
+settings[pragma_block_title_border_color] = rgb(176, 190, 197)
+
+; Footer
+settings[pragma_footer_bg] = rgb(236, 239, 241)
+settings[pragma_footer_text_color] = rgba(38, 50, 56, 0.87)
+settings[pragma_footer_block_title_color] = rgb(38, 50, 56)
+settings[pragma_footer_block_title_border_color] = rgb(176, 190, 197)
+settings[pragma_footer_borders_color] = rgb(176, 190, 197)
+
+;;;;;;;;;;;;;;;;;;;;;;;
+; Advanced Settings
+;;;;;;;;;;;;;;;;;;;;;;;
+settings[pragma_use_custom_css_file] = 0
+settings[pragma_use_custom_js_file] = 0
+settings[pragma_additional_css] = ''
+settings[pragma_additional_javascript] = ''
